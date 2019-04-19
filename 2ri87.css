@@ -5,8 +5,13 @@
   font-family: 'Roboto', sans-serif;
   word-break: break-all;
 }
+body .navbar {
+  height: 0px;
+}
 body{
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+  margin:0 2em;
+  max-width:600px;
 }
 ?{/*irui*/
   font-size:13.5px;
