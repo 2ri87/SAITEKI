@@ -17,6 +17,9 @@ body{
   font-size:var(--font-size);
   color:var(--base-font-color);
 }
+.section{
+  margin: 0 !important;
+}
 nav a{/*irui*/
   text-decoration: none;
   color:var(--base-font-color);
@@ -30,23 +33,27 @@ header h1 a{
 }*/
 .widget.Blog article{
   margin-top: 3rem;
+  clear: both;
+  overflow: hidden;
 }
 .widget.Blog article h1{
   font-size:var(--font-size);
+  width: 100%;
+  margin:0 0 .3rem;
 }
 .widget.Blog article h1 a{
   text-decoration: none;
   color:var(--base-font-color);
 }
-.widget.Blog p{/*more before*/
-  font-size:12px;  
-}
-.widget.Blog article img:nth-child(1){
+.widget.Blog article img:nth-child(n){
+  display:inline-block;
   width: calc(100% / 3);
+  float: left;
+  margin: 0 .5rem .3rem 0;
 }
-.widget.Blog p:first-child{
-  display: inline;
+.widget.Blog article h1+a img{
+  width:100%;
 }
 .widget.Blog .jump-link{/*more before*/
-  
+  display:inline-block;
 }
