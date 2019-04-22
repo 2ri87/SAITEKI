@@ -41,7 +41,7 @@ header h1 a{
 .widget.Blog p{/*more before*/
   font-size:12px;  
 }
-.widget.Blog article img:first-child{
+.widget.Blog article img:nth-child(1){
   width: calc(100% / 3);
 }
 .widget.Blog p:first-child{
