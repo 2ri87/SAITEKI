@@ -7,8 +7,9 @@
 }
 body{
   -webkit-text-size-adjust: 100%;
-  margin:0 2em;
+  margin:0 auto;
   max-width:31rem;
+  padding:calc(1.25*1rem)
   font-size:calc((100vw - 320px)/ 200 + .8rem);
 }
 @media (max-width: 767px){
