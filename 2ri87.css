@@ -20,13 +20,13 @@ nav a{/*irui*/
   text-decoration: none;
   color:var(--base-font-color);
 }
-h1 a{
+header h1 a{
   text-decoration: none;
   color:var(--base-font-color);
 }
-h2{/*H tag*/
+/*.widget.Blog{H tag
   font-size:calc(var(--font-size) * 1.48);
-}
+}*/
 .widget.Blog img{
   width: 50%; 
 }
