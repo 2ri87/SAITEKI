@@ -8,7 +8,29 @@
 body{
   -webkit-text-size-adjust: 100%;
   margin:0 2em;
-  max-width:600px;
+  max-width:31rem;
+  font-size:calc((100vw - 320px)/ 200 + .8rem);
+}
+@media (max-width: 767px){
+  body{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) {
+  body{
+    width:975px
+  }
+}
+@media (min-width: 1000px) {
+  body{
+    width:975px
+  }
+}
+@media (min-width: 1200px) {
+  body{
+    width:975px
+  }
 }
 ?{/*irui*/
   font-size:13.5px;
