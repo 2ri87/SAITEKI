@@ -4,6 +4,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 var{
   --font-size:calc((100vw - 320px)/ 200 + .7rem);
   --base-font-color:hsl(0%,100%,50%);
+  --boder-color:hsl(0%,50%,50%);
 }
 *{
   font-family: 'Roboto', sans-serif;
@@ -23,6 +24,14 @@ body{
 nav a{/*irui*/
   text-decoration: none;
   color:var(--base-font-color);
+}
+nav li {
+  display: inline-block;
+}
+nav li + li:before{
+  content: "|";
+  margin: .5rem;
+  color: var(--boder-color);
 }
 header h1 a{
   text-decoration: none;
@@ -56,4 +65,9 @@ header h1 a{
 }
 .widget.Blog .jump-link{/*more before*/
   display:inline-block;
+}
+footer{
+  margin-top: 20%;
+  text-align: right;
+  font-size: 8px;
 }
