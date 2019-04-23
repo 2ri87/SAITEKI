@@ -40,10 +40,15 @@ header h1 a{
 /*.widget.Blog{H tag
   font-size:calc(var(--font-size) * 1.48);
 }*/
+.widget.Blog {
+    display: flex;
+    flex-wrap:wrap;
+}
 .widget.Blog article{
   margin-top: 3rem;
   clear: both;
   overflow: hidden;
+  width:50%;
 }
 .widget.Blog article h1{
   font-size:var(--font-size);
