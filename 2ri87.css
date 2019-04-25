@@ -80,8 +80,11 @@ span.post_tag {
   display: block;
   margin: 20% 0 0;
 }
-span.post_tag:before {
+span.post_tag a:before {
   content: "#";
+}
+span.post_tag a + a:before {
+  margin-left: 1rem;
 }
 .directory li {
   list-style: none;
