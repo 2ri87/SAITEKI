@@ -86,3 +86,7 @@ span.post_tag {
 span.post_tag:before {
   content: "#";
 }
+.directory li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
