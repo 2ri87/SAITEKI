@@ -104,7 +104,6 @@ a.home-link{
 a[href*="amazon"],
 a[href*="yodobashi"],
 a[href*="rakuten"]{
-  content: "";
   font-size: 0 !important;
 }
 a[href*="amazon"] + a,
@@ -115,4 +114,4 @@ a[href*="rakuten"] + a{
 a[href*="amazon"]:before,a[href*="rakuten"],a[href*="yodobashi"]:before{font-size:12px !important;}
 a[href*="amazon"]:before{content: "Amazon";}
 a[href*="rakuten"]:before{content: "Rakuten";}
-a[href*="yodobashi"]:before{content: "yodobashi";}
+a[href*="yodobashi"]:before{content: "Yodobashi";}
