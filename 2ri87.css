@@ -111,7 +111,7 @@ a[href*="yodobashi"] + a,
 a[href*="rakuten"] + a{
   margin-left: 1rem;
 }
-a[href*="amazon"]:before,a[href*="rakuten"],a[href*="yodobashi"]:before{font-size:12px !important;}
+a[href*="amazon"]:before,a[href*="rakuten"],a[href*="yodobashi"]:before{font-size:var(--font-size) !important;}
 a[href*="amazon"]:before{content: "Amazon";}
 a[href*="rakuten"]:before{content: "Rakuten";}
 a[href*="yodobashi"]:before{content: "Yodobashi";}
