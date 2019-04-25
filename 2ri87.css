@@ -17,6 +17,7 @@ body{
   padding:calc(1.25*1rem);
   font-size:var(--font-size);
   color:var(--base-font-color);
+  line-height: 1.7rem;
 }
 .section{
   margin: 0 !important;
@@ -37,23 +38,18 @@ header h1 a{
   text-decoration: none;
   color:var(--base-font-color);
 }
-/*.widget.Blog{H tag
-  font-size:calc(var(--font-size) * 1.48);
-}*/
 .widget.Blog {
     display: flex;
     flex-wrap:wrap;
 }
 .widget.Blog article{
   margin-top: 3rem;
-  clear: both;
   overflow: hidden;
-  width:50%;
 }
 .widget.Blog article h1{
   font-size:var(--font-size);
   width: 100%;
-  margin:0 0 .3rem;
+  margin: 0 0 2.3rem;
 }
 .widget.Blog article h1 a{
   text-decoration: none;
@@ -75,4 +71,18 @@ footer{
   margin-top: 20%;
   text-align: right;
   font-size: 8px;
+}
+#blog-pager {
+  margin: 20% 0 0;
+  display: flex;
+}
+a.home-link {
+  margin: 0 1rem;
+}
+span.post_tag {
+  display: block;
+  margin: 20% 0 0;
+}
+span.post_tag:before {
+  content: "#";
 }
