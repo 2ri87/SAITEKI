@@ -270,13 +270,14 @@ a[href*="amazon"]:before{content: "Amazon";}
 a[href*="rakuten"]:before{content: "Rakuten";}
 a[href*="yodobashi"]:before{content: "Yodobashi";}
 article li p {
-	position: relative;
-	background: #ffffff;
-	border-top: 1px solid #bfbfbf;
-	margin: 10px 0 2rem;
-	padding: .5rem 0 0;
+  position: relative;
+  background: #ffffff;
+  border-top: 1px solid #bfbfbf;
+  margin: 10px 0 2rem;
+  padding: .5rem 0 0;
+  color: #bbb;
 }
-article p:after {
+article li p:after {
   position: absolute;
   left: 1rem;
   top: -8px;
