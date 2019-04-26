@@ -275,6 +275,7 @@ article p {
 	border-top: 1px solid #bfbfbf;
 	margin: 10px 0 2rem;
 	padding: .5rem 0 0;
+	color: #bbb;
 }
 article p:after {
   position: absolute;
