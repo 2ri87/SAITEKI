@@ -128,7 +128,7 @@ article li p {
   border-top: 1px solid #bfbfbf;
   margin: 10px 0 2rem;
   padding: .5rem 0 0;
-  color: #bbb;
+  color:#989898;
 }
 article li p:after {
   position: absolute;
