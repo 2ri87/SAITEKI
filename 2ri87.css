@@ -209,6 +209,10 @@ ul.directory h2 {
   float: left;
   margin: 0 .5rem .3rem 0;
 }
+article li img {
+  display: block !important;
+  float: none !important;
+}
 .widget.Blog article h1+a img{
   width:100%;
 }
