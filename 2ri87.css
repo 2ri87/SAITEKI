@@ -275,10 +275,10 @@ article p {
 article p:after {
   position: absolute;
   left: 1rem;
-  top: -9px;
+  top: -8px;
   content: "";
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   border-top: solid 1px #bfbfbf;
   border-right: solid 1px #bfbfbf;
   -ms-transform: rotate(315deg);
