@@ -184,6 +184,9 @@ header h1 a{
 ul.directory {
   margin: 20% 0 0;
 }
+ul.directory h2 {
+  font-weight: 400;
+}
 .widget.Blog {
     display: flex;
     flex-wrap:wrap;
