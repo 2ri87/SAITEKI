@@ -19,8 +19,9 @@ body{
   line-height: 1.7rem;
   font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
 }
-.blog-title-header{
-font-family: 'Caveat', cursive;
+.blog-title-header h1{
+  font-family: 'Caveat', cursive;
+  color: #000 !important;
 }
 .section{
   margin: 0 !important;
