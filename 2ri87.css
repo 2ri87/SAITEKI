@@ -122,28 +122,24 @@ a[href*="yodobashi"]:before{content: "Yodobashi";}
 article p {
 	position: relative;
 	background: #ffffff;
-	border: 1px solid var(--boder-color);
+	border-top: 1px solid #bfbfbf;
+	margin: 1rem 0 2rem;
+	padding: 1rem 0 0;
+	letter-spacing: .11em;
 }
-article .p:after,
-article .p:before {
-	bottom: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-article .p:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-bottom-color: #ffffff;
-	border-width: 30px;
-	margin-left: -30px;
-}
-article .p:before {
-	border-color: rgba(102, 102, 102, 0);
-	border-bottom-color: var(--boder-color);
-	border-width: 31px;
-	margin-left: -31px;
+
+article p:after {
+  position: absolute;
+  left: 1rem;
+  top: -.7rem;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: solid 1px #bfbfbf;
+  border-right: solid 1px #bfbfbf;
+  -ms-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+  background-color: #fff; /* .txtのborderを地の色で打ち消す */
+  }
 }
