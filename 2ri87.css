@@ -39,6 +39,9 @@ header h1 a{
   text-decoration: none;
   color:var(--base-font-color);
 }
+ul.directory {
+  margin: 20% 0 0;
+}
 .widget.Blog {
     display: flex;
     flex-wrap:wrap;
