@@ -26,9 +26,6 @@ body{
 .blog-title-header h1 {
   font-weight: 400;
 }
-nav a{/*irui*/
-  text-decoration: none;
-}
 nav li {
   display: inline-block;
   padding: 0 .5rem 0 0;
@@ -171,7 +168,6 @@ body{
   margin: 0 !important;
 }
 nav a{/*irui*/
-  text-decoration: none;
 }
 nav li {
   display: inline-block;
