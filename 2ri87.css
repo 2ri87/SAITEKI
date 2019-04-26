@@ -47,7 +47,6 @@ ul.directory {
     flex-wrap:wrap;
 }
 .widget.Blog article{
-  margin-top: 3rem;
   overflow: hidden;
 }
 .widget.Blog article h1{
