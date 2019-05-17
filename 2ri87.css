@@ -31,6 +31,19 @@ header h1 a{
     width: 20rem;
   }  
 }
+@media screen and (max-width:1199px){
+  header{
+  max-width:31rem;
+  margin: 0 auto 7rem;
+  }
+  #sitename {
+  float: left;
+  }
+  .nav-wrapper {
+  width: 89%;
+  float: right;
+  }
+}
 main,
 footer{
   max-width:31rem;
