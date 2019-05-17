@@ -20,6 +20,14 @@ body{
   line-height: 1.7rem;
   font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
 }
+a{
+  color:skyblue;
+  transform: scale(.9);
+}
+a:hover {
+  color: pink;
+  transform: scale(.9);
+}
 .section{
   margin: 0 !important;
 }
