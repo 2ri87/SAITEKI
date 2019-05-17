@@ -40,7 +40,7 @@ header h1 a{
   float: left;
   }
   .nav-wrapper {
-  width: 89%;
+  width: 80%;
   float: right;
   }
 }
@@ -63,6 +63,21 @@ a:hover {
 h1.entry-title {
   font-size: 2rem;
   line-height: 1.3;
+}
+
+/* 検索 */
+table.gsc-search-box td.gsc-input {
+  padding-right: 0;
+}
+input.gsc-input {
+  padding: 4px 0;
+  border: 0;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+input.gsc-search-button {
+  border: 0;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .bread {
@@ -96,15 +111,10 @@ ul.share-icons li {
 .section{
   margin: 0 !important;
 }
+nav{
+  float: none;
+}
 nav a{/*irui*/
-}
-nav li {
-  display: inline-block;
-  padding: 0 .5rem 0 0;
-}
-nav li + li{
-  padding: 0 .5rem;
-  border-left:1px dotted #bfbfbf;
 }
 @media screen and (min-width:1200px){
   nav li {
@@ -114,6 +124,14 @@ nav li + li{
   nav li + li{
     padding: 0;
     border-left:0;
+  }
+}
+@media screen and (max-width:1200px){
+  nav ul{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    flex-wrap:nowrap;
   }
 }
 
