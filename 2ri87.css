@@ -12,12 +12,29 @@ var{
 body{
   -webkit-text-size-adjust: 100%;
   margin:0 auto;
-  max-width:31rem;
   padding:calc(1.25*1rem);
   font-size:var(--font-size);
   color:var(--base-font-color);
   line-height: 1.7rem;
   font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+header h1 a{
+  text-decoration: none;
+  color:var(--base-font-color);
+}
+@media screen and (min-width:100px){
+  header{
+    position: fixed;
+    right: calc(1.25*1rem);
+    top: calc(1.25*1rem);
+    height: 100%;
+    width: 20rem;
+  }  
+}
+main,
+footer{
+  max-width:31rem;
+  margin: 0 auto;
 }
 a{
   color:skyblue;
@@ -43,9 +60,15 @@ nav li + li{
   padding: 0 .5rem;
   border-left:1px dotted #bfbfbf;
 }
-header h1 a{
-  text-decoration: none;
-  color:var(--base-font-color);
+@media screen and (min-width:100px){
+  nav li {
+    display: block;
+    padding: 0 .5rem 0 0;
+  }
+  nav li + li{
+    padding: 0;
+    border-left:0;
+  }
 }
 ul.directory {
   margin: 20% 0 0;
@@ -157,4 +180,7 @@ article li p:after {
 article img {
   width: 70vw;
   height: auto;
+}
+.showpageNum{
+  padding: 0 .3rem;
 }
