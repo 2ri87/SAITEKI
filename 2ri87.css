@@ -64,6 +64,9 @@ h1.entry-title {
   font-size: 2rem;
   line-height: 1.3;
 }
+i.material-icons {
+  font-size: 100%;
+}
 
 /* 検索 */
 div#BlogSearch1_form {
