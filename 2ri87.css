@@ -44,7 +44,7 @@ a:hover {
   color: pink;
   transform: scale(.9);
 }
-h1{
+#sitename{
   font-family: 'VT323', monospace;
 }
 h1.entry-title {
