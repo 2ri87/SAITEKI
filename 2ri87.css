@@ -63,12 +63,22 @@ h1.entry-title {
   display: inline-block;
 }
 
+/* 更新時間 */
 p.sub-desc {
   font-size: 9px;
 }
 time.updated-date {
   margin-left: .2rem;
-} 
+}
+
+/* sns */
+ul.share-icons {
+  list-style: none;
+}
+
+ul.share-icons li {
+  display: inline-block;
+}
 
 .section{
   margin: 0 !important;
