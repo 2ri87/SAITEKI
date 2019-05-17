@@ -23,25 +23,15 @@ body{
 .section{
   margin: 0 !important;
 }
-.list-label-widget-content ul a{/*irui*/
+nav a{/*irui*/
 }
-.list-label-widget-content ul li {
+nav li {
   display: inline-block;
   padding: 0 .5rem 0 0;
 }
-.list-label-widget-content ul li + li{
+nav li + li{
   padding: 0 .5rem;
   border-left:1px dotted #bfbfbf;
-}
-/* 幅が 1200px 以下であれば */
-@media (max-width:1200px) {
-  .widget-content.list-label-widget-content {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    left: 0;
-  }
 }
 header h1 a{
   text-decoration: none;
