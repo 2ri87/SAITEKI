@@ -22,7 +22,7 @@ header h1 a{
   text-decoration: none;
   color:var(--base-font-color);
 }
-@media screen and (min-width:100px){
+@media screen and (min-width:1200px){
   header{
     position: fixed;
     right: calc(1.25*1rem);
@@ -93,7 +93,7 @@ nav li + li{
   padding: 0 .5rem;
   border-left:1px dotted #bfbfbf;
 }
-@media screen and (min-width:100px){
+@media screen and (min-width:1200px){
   nav li {
     display: block;
     padding: 0 .5rem 0 0;
