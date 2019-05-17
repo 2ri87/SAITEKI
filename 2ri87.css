@@ -198,7 +198,7 @@ footer{
 }
 span.post_tag {
   display: block;
-  margin: 20% 0 0;
+  margin: 20% 0;
 }
 span.post_tag a:before {
   content: "#";
