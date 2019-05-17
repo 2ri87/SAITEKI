@@ -33,8 +33,8 @@ body{
   padding: 0 .5rem;
   border-left:1px dotted #bfbfbf;
 }
-/* 幅が 680px 以下であれば */
-@media (max-width:680px) {
+/* 幅が 1200px 以下であれば */
+@media (max-width:1200px) {
   .widget-content.list-label-widget-content {
     position: fixed;
     bottom: 0;
