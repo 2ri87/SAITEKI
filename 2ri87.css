@@ -66,18 +66,21 @@ h1.entry-title {
 }
 
 /* 検索 */
-table.gsc-search-box td.gsc-input {
-  padding-right: 0;
+div#BlogSearch1_form {
+  width: 50%;
+  float: right;
+  text-align: right;
+  border-bottom: 1px solid #f1f1f1;
+  line-height: 1;
 }
 input.gsc-input {
-  padding: 4px 0;
+  padding: 0;
   border: 0;
-  border-bottom: 1px solid #f1f1f1;
-  width: 100%;
+  width: 70%;
 }
 input.gsc-search-button {
   border: 0;
-  border-bottom: 1px solid #f1f1f1;
+  margin: 0;
 }
 
 .bread {
