@@ -267,7 +267,7 @@ article img {
 ol.itemlist {display: flex;flex-wrap: wrap;list-style: none;position: relative;counter-reset: num;}
 .itemlist li {padding: 1rem 0 2rem;}
 ol.itemlist img {
-  width: 100%;
+  max-width: 100%;
   height:auto;
 }
 .itemlist li:before {
