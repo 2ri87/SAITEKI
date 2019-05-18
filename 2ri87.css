@@ -154,6 +154,11 @@ nav a{/*irui*/
   width: auto;
 }
 
+.post-body h2 {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+
 ul.directory {
   margin: 20% 0 0;
 }
