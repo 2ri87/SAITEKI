@@ -264,3 +264,25 @@ article img {
 .showpageNum{
   margin: 0 0 .5rem 0;
 }
+ol.itemlist {display: flex;flex-wrap: wrap;list-style: none;position: relative;}
+.itemlist li {
+  width: 48%;
+  padding: 1rem 1% 1rem;
+}
+ol.itemlist img {
+  width: 100%;
+  height:auto;
+}
+.itemlist li:before {
+  counter-increment: list;
+  content: counter(number);
+/*数字のデザイン変える*/
+  display:block;
+  background: #dadada;
+  color: white;
+  font-weight:bold;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;   /*以下 上下中央寄せのため*/
+}
