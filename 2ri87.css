@@ -45,7 +45,7 @@ header h1 a{
   }
 }
 main,
-footer{
+.footer{
   max-width:31rem;
   margin: 0 auto;
 }
