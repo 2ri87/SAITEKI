@@ -154,11 +154,6 @@ nav a{/*irui*/
   width: auto;
 }
 
-.post-body h2 {
-  margin-top: 3rem;
-  font-size: 1.4rem;
-}
-
 ul.directory {
   margin: 20% 0 0;
 }
@@ -270,10 +265,7 @@ article img {
   margin: 0 0 .5rem 0;
 }
 ol.itemlist {display: flex;flex-wrap: wrap;list-style: none;position: relative;counter-reset: num;}
-.itemlist li {
-  width: 48%;
-  padding: 1rem 1% 1rem;
-}
+.itemlist li {padding: 1rem 0 2rem;}
 ol.itemlist img {
   width: 100%;
   height:auto;
