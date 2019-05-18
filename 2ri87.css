@@ -154,6 +154,11 @@ nav a{/*irui*/
   width: auto;
 }
 
+/* 記事内 */
+.entry-content {
+  text-align: justify;
+}
+
 ul.directory {
   margin: 20% 0 0;
 }
