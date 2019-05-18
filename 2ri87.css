@@ -39,6 +39,7 @@ main,
     position: fixed;
     right: calc(1.25*1rem);
     bottom: calc(1.25*1rem);
+    width: 20rem;
   }
 }
 @media screen and (max-width:1199px){
