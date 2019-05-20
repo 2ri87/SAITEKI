@@ -62,13 +62,10 @@ a{
   color:skyblue;
   transform: scale(.9);
 }
-a:hover {
+/*a:hover {
   color: pink;
   transform: scale(.9);
-}
-a:visited {
-  color: hsl(0, 0%, 40%);
-}
+}*/
 #sitename{
   font-family: 'VT323', monospace;
 }
@@ -129,7 +126,9 @@ ul.share-icons li {
 nav{
   float: none;
 }
-nav a{/*irui*/
+a:visited {
+  color: hsl(0, 0%, 40%);
+  border:3px solid #333;
 }
 @media screen and (min-width:1200px){
   nav li {
