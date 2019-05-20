@@ -66,6 +66,9 @@ a:hover {
   color: pink;
   transform: scale(.9);
 }
+a:visited {
+  color: hsl(0, 0%, 40%);
+}
 #sitename{
   font-family: 'VT323', monospace;
 }
