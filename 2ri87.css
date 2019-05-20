@@ -126,10 +126,6 @@ ul.share-icons li {
 nav{
   float: none;
 }
-a:visited {
-  color: hsl(0, 0%, 40%);
-  border:3px solid #333;
-}
 @media screen and (min-width:1200px){
   nav li {
     display: block;
