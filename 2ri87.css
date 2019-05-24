@@ -60,7 +60,11 @@ main,
 }
 a{
   color:skyblue;
-  transform: scale(.9);
+  transition: .5s;
+}
+a:hover{
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
 }
 /*a:hover {
   color: pink;
