@@ -121,10 +121,10 @@ time.updated-date {
   margin-left: .2rem;
 }
 /* list style */
-.date-posts li{
+#adsense-target li{
   list-style:none;
 }
-.date-posts li:before {
+#adsense-target li:before {
   content: "●";
   color: pink;
   font-size: 72%;
