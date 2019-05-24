@@ -95,7 +95,13 @@ input.gsc-search-button {
   border: 0;
   margin: 0;
 }
-
+/* 画像 */
+.article-thumbnail{
+  background: #f7f7f7;
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+}
 .bread {
   margin: 0 0 1rem;
   font-size: 10px;
