@@ -41,6 +41,11 @@ main,
     bottom: calc(1.25*1rem);
     width: 20rem;
   }
+  h1#sitename {
+  position: fixed;
+  top: 2rem;
+  left: 18rem;
+  }
 }
 @media screen and (max-width:1199px){
   header{
@@ -70,9 +75,7 @@ a:hover{
   color: pink;
   transform: scale(.9);
 }*/
-#sitename{
-  font-family: 'VT323', monospace;
-}
+#sitename img{width: 60%;max-width: 160px;margin-bottom: 10px;}
 h1.entry-title {
   font-size: 2rem;
   line-height: 1.3;
