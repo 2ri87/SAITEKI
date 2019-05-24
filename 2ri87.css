@@ -120,7 +120,10 @@ p.sub-desc {
 time.updated-date {
   margin-left: .2rem;
 }
-
+/* list style */
+.date-posts li{
+  list-style:none;
+}
 .date-posts li:before {
   content: "●";
   color: pink;
