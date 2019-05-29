@@ -320,3 +320,6 @@ ol.itemlist img {
 li h1,li h2,li h3,li h4,li h5{
     display: inline-block;
 }
+#Blog1 img{
+  width:100%;
+}
