@@ -142,7 +142,9 @@ time.updated-date {
   vertical-align: middle;
   margin-right: .2rem;
 }
-
+#app li {
+  margin-bottom: 2rem;
+}
 /* sns */
 ul.share-icons {
   list-style: none;
