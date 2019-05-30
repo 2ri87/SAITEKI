@@ -9,9 +9,8 @@ var{
 *{
   word-break: break-all;
 }
-#sitename svg {
-  width: 10vw;
-  min-width: 159px;
+#sitename a {
+  display:block;
 }
 body{
   -webkit-text-size-adjust: 100%;
