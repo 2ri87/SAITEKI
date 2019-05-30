@@ -9,8 +9,9 @@ var{
 *{
   word-break: break-all;
 }
-#sitename a {
-  display:block;
+#sitename svg {
+  width: 10vw;
+  min-width: 159px;
 }
 body{
   -webkit-text-size-adjust: 100%;
@@ -176,12 +177,16 @@ nav{
 .article-list-title h2 {
   font-weight: normal;
 }
+.article-list-title h2 strong{
+  font-size:1.3rem;
+  display:block;
+}
 .article-list-title {
-  margin: 0 0 1rem;
+  margin: 0 0 2rem;
 }
 .article-thumbnail img {
   height: 100px;
-  width: auto;
+  width: auto !important;
 }
 
 /* 記事内 */
