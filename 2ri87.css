@@ -1,7 +1,8 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}/* change colours to suit your needs */ins{background-color:#ff9;color:#000;text-decoration:none;}/* change colours to suit your needs */mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}/* change border colour to suit your needs */hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
-var{
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300&display=swap');
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1;letter-spacing: 0.14em;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}/* change colours to suit your needs */ins{background-color:#ff9;color:#000;text-decoration:none;}/* change colours to suit your needs */mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}/* change border colour to suit your needs */hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+:root{
   --font-size:calc((100vw - 320px)/ 200 + .7rem);
   --base-font-color:#333;
   --boder-color:hsl(0%,50%,50%);
@@ -17,10 +18,12 @@ body{
   -webkit-text-size-adjust: 100%;
   margin:0 auto;
   padding:calc(1.25*1rem);
-  font-size:var(--font-size);
   color:var(--base-font-color);
   line-height: 1.7rem;
   font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  letter-spacing: 0.1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--font-size);
 }
 header h1 a{
   text-decoration: none;
@@ -81,9 +84,11 @@ a:hover{
 }*/
 #sitename img{width: 60%;max-width: 160px;margin-bottom: 10px;}
 h1.entry-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.3;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
 }
 i.material-icons {
   font-size: 100%;
@@ -127,6 +132,10 @@ input.gsc-search-button {
 /* 更新時間 */
 p.sub-desc {
   font-size: 9px;
+  color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin: 4rem 0 0;
 }
 time.updated-date {
   margin-left: .2rem;
@@ -194,6 +203,7 @@ nav{
 /* 記事内 */
 .entry-content {
   text-align: justify;
+  font-size: .9rem;
 }
 
 ul.directory {
